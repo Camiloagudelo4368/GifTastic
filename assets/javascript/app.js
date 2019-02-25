@@ -52,6 +52,9 @@ $(document).ready(function () {
 
                 // call function to create the buttons
                 createButtons(topics);
+                
+                $("#txtSearch").val("");
+
             }
             else {
                 alert("The country is already on then list");
@@ -60,8 +63,10 @@ $(document).ready(function () {
         else {
             alert("Please insert a country");
         }
+    })
 
-
+    $("#clearText").on("click", function (event) {
+        $("#txtSearch").val("");
     })
 
     // click event of every element with the class btnCity
