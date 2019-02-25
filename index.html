@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Giftastic</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>Giftastic</header>
+    <div class="row">
+      <div class="search col-6">
+        <div class="input-group mb-3">
+          <input id="txtSearch" type="text" class="form-control" placeholder="Insert a country"
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" id="insert">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header text-center font-weight-bold">
+            Countries
+          </div>
+          <br>
+          <div class="input-group mb-3 col-6">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01">Number of items</label>
+            </div>
+            <select class="custom-select" id="numSelect">
+              <option selected>Choose...</option>
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+              <option value="25">25</option>
+            </select>
+          </div>
+          <div class="buttons card-body">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="images row">
+    </div>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

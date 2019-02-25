@@ -1,0 +1,37 @@
+body{
+    margin-top:10px;    
+}
+
+.container{
+    max-width:960px;
+    margin: O auto;
+}
+
+header{
+    font-size:25px;
+    text-align: center;
+    padding:20px;
+    background-color: #5097B8;
+    color:#ffff4f;
+    margin-bottom:20px;
+}
+
+.search{
+    margin-bottom: 20px;
+}
+
+.btnCity{
+    margin: 3px;
+}
+
+.responseImage{
+    margin-bottom: 10px;
+    width:auto;
+    height:200px; 
+    max-width:400px;
+}
+
+.card_content{
+    margin-top:10px;
+    height: 320px;
+}
