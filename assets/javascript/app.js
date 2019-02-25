@@ -81,9 +81,9 @@ $(document).ready(function () {
             var _searchValue = event.currentTarget.textContent;
             var _limit = "&limit=" + $("#numSelect").val();
 
-            console.log('http://api.giphy.com/v1/gifs/search?q=' + _searchValue + '&api_key=' + _key + _limit);
+            console.log('https://api.giphy.com/v1/gifs/search?q=' + _searchValue + '&api_key=' + _key + _limit);
             $.ajax({
-                url: 'http://api.giphy.com/v1/gifs/search?q=' + _searchValue + '&api_key=' + _key + _limit,
+                url: 'https://api.giphy.com/v1/gifs/search?q=' + _searchValue + '&api_key=' + _key + _limit,
                 method: "GET"
             }).then(function (response) {
 
