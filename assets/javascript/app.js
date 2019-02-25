@@ -104,7 +104,7 @@ $(document).ready(function () {
 
 
                     $(".images").append(
-                        `<div class="col-6">
+                        `<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="card_content card text-center">
                     <div class="card-header">
                     ${_title}
